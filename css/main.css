@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  }
+  
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    position:relative;
+  }
+  .skip-links{
+    list-style:none;
+    margin:0;
+    padding:0;
+    /*position:relative;*/
+  }
+  .skip-links a {
+    position:absolute;
+    top:-5rem;
+    background:black;
+    color:white;
+  }
+  .skip-links a: focus{
+  top:0;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  nav ul {
+    background-color:#2e4a62;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding:10px;
+    font-size:1.5rem;
+    padding:10px;
+  }
+  nav ul li a:hover{
+    text-decoration:underline;
+  }
+  
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+  }
+  
+  form textarea {
+    min-height: 150px;
+    max-height: 150px;
+    height: 150px;
+    resize: none;
+  }
+  
+  form button {
+    background: none;
+    border: 2px solid black;
+    padding: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .footer {
+    padding: 2rem 0;
+  }
